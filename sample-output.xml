@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data>
+    <title>名簿</title>
+    <persons>
+        <person id="1">
+            <firstName>Taro</firstName>
+            <lastName>Tanaka</lastName>
+            <age>17</age>
+        </person>
+        <person id="2">
+            <firstName>Hanako</firstName>
+            <lastName>Suzuki</lastName>
+            <age>15</age>
+        </person>
+    </persons>
+</data>
