@@ -9,25 +9,20 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "data")
+@XmlRootElement(name = "progress")
 public class Data {
-    @XmlElement(name = "title") // 省略可
-    private String title;
 
-    @XmlElementWrapper(name = "persons")
-    @XmlElement(name = "person")
-    private List<Person> persons;
+    @XmlElementWrapper(name = "outputFiles")
+    @XmlElement(name = "outputFile")
+    private List<OutputFile> outputFiles;
 
-    public String getTitle() {
-        return title;
-    }
-
-    public List<Person> getPersions() {
-        return persons;
+    public List<OutputFile> getOutputFiles() {
+        return outputFiles;
     }
 
     @Override
     public String toString() {
-        return String.format("title = [%s], persons = %s", title, persons);
+        return "Data [outputFiles=" + outputFiles + "]";
     }
+
 }

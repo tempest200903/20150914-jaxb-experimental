@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<data>
-  <title>名簿</title>
-  <persons>
-    <person id="1">
-      <firstName>Taro</firstName>
-      <lastName>Tanaka</lastName>
-      <age>17</age>
-    </person>
-    <person id="2">
-      <firstName>Hanako</firstName>
-      <lastName>Suzuki</lastName>
-      <age>15</age>
-    </person>
-  </persons>
-</data>
+<progress>
+  <outputFiles>
+    <outputFile id="1">
+      <relativePath>histogram.csv</relativePath>
+      <stage>uncompleted</stage>
+    </outputFile>
+    <outputFile id="2">
+      <relativePath>histogram.csv</relativePath>
+      <stage>completed</stage>
+    </outputFile>
+  </outputFiles>
+</progress>
